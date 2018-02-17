@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#044d42"
+    tools:context="com.example.uplabdhisingh.t95.EnterRecordDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_aadhar_verify"
+        android:text="Click to Verify AADHAR !"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_verify_aadhar"
+        android:layout_below="@id/tv_aadhar_verify"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp"
+        android:text="Verify"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_verify_aadhar"
+        android:text="Aadhar Verified Succesfully?"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_margin="16dp"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/btn_yes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:text="YES"
+        />
+    <Button
+        android:id="@+id/btn_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:text="NO"
+        />
+
+
+</RelativeLayout>
