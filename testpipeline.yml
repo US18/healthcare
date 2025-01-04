@@ -1,7 +1,7 @@
 stages:
   - build
 
-Job1:
+job:
   stage: build
   script: 
-    - echo "this is a build job"
+    - echo 'this is a build job'
