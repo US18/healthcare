@@ -1,10 +1,7 @@
 stages:
   - build
-  - test
-  - integrate
-  - deploy
 
 Job1:
   stage: build
   script: 
-    - echo "this is a build job!"
+    - echo "this is a build job"
