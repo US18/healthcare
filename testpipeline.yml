@@ -1,7 +1,6 @@
-stages:
-  - build
-
-job:
-  stage: build
-  script: 
-    - echo 'this is a build job'
+pipelines:
+  stages:
+    - build
+    - test
+    - integrate
+    - deploy
