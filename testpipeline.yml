@@ -1,6 +1,10 @@
-pipelines:
-  stages:
-    - build
-    - test
-    - integrate
-    - deploy
+stages:
+  - build
+  - test
+  - integrate
+  - deploy
+
+job1: 
+  stage: build
+  script:
+    - echo "hello"
